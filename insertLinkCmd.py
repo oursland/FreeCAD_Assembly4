@@ -66,7 +66,7 @@ class insertLink():
     """
     def Activated(self):
         # This function is executed when the command is activated
-        self.UI = QtGui.QDialog(QtGui.QApplication.activeWindow())
+        self.UI = QtGui.QDialog()
         self.drawUI()
 
         # initialise stuff
